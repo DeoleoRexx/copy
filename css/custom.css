@@ -1,24 +1,29 @@
 body {
-    background-color: rgb(199, 224, 247);
+    background-color: #fff5ed;
+    text-align: center;
 }
+
 h1 {
     text-align: center;
     color: black;
 }
+
 h4 {
     font-size: 16px;
     font-weight: 700;
 }
+
 header {
     padding: 20px 0 0 0;
     text-align: center;
-    background-color:#0a141d;
+    background-color: #0a141d;
 }
+
 .navct {
     color: black;
     padding-top: 5px;
     text-transform: uppercase;
-   
+
 }
 
 .navct a {
@@ -26,10 +31,7 @@ header {
     text-decoration: none;
 }
 
-.logo img{
-    height: 50px;
-    width: 50px;
-}
+
 
 @media (min-width: 750px) {
     header {
@@ -40,8 +42,9 @@ header {
 ul {
     list-style: none;
 }
+
 #hero {
-    background-image: url(../img/newgen.jpg);
+    background-image: url(../img/tienda.jpg);
     position: relative;
     z-index: 0;
     background-repeat: no-repeat;
@@ -49,11 +52,12 @@ ul {
     background-size: cover;
     height: 700px;
 }
-#hero::before{
+
+#hero::before {
     content: "";
     background: rgba(4, 4, 5, 0.45);
     position: absolute;
-    top: 0; 
+    top: 0;
     min-height: 100%;
     left: 0;
     right: 0;
@@ -63,6 +67,7 @@ ul {
 #encabezado {
     margin: 30px 0;
 }
+
 .submenu {
     position: relative;
 }
@@ -89,13 +94,11 @@ ul {
     background-color: crimson;
     text-align: center;
     border-radius: 10px;
-    color:white
+    color: white
 }
 
-.contenido-hero {
-    padding-top: 120px;
-    margin-top: 80px;
-}
+
+.contenido-hero {}
 
 .contenido-hero form {
     position: relative;
@@ -125,6 +128,7 @@ ul {
 #lista-cafe .row {
     margin-bottom: 20px;
 }
+
 .agregar-carrito {
     margin: 10px 0;
 }
@@ -134,11 +138,13 @@ ul {
     box-shadow: 0 25px 98px 0 rgb(0 0 0 / 3%);
     background: rgba(95, 200, 226, 0.863);
 }
+
 @media (min-width: 550px) {
     .card {
         text-align: left;
     }
 }
+
 .info-card {
     padding: 10px 20px;
     color: black;
@@ -161,46 +167,54 @@ ul {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
 /*:::::Pie de Pagina*/
-.pie-pagina{
+.pie-pagina {
     width: 100%;
     background-color: #0a141d;
 }
-.pie-pagina .grupo-1{
+
+.pie-pagina .grupo-1 {
     width: 100%;
     max-width: 1200px;
     margin: auto;
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap:50px;
+    grid-gap: 50px;
     padding: 45px 0px;
 }
-.pie-pagina .grupo-1 .box figure{
+
+.pie-pagina .grupo-1 .box figure {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.pie-pagina .grupo-1 .box figure img{
+
+.pie-pagina .grupo-1 .box figure img {
     width: 250px;
 }
-.pie-pagina .grupo-1 .box h2{
+
+.pie-pagina .grupo-1 .box h2 {
     color: #fff;
     margin-bottom: 25px;
     font-size: 20px;
 }
-.pie-pagina .grupo-1 .box p{
+
+.pie-pagina .grupo-1 .box p {
     color: #efefef;
     margin-bottom: 10px;
 }
-.pie-pagina .grupo-1 .red-social a{
+
+.pie-pagina .grupo-1 .red-social a {
     display: inline-block;
     text-decoration: none;
     width: 45px;
@@ -212,23 +226,39 @@ ul {
     text-align: center;
     transition: all 300ms ease;
 }
-.pie-pagina .grupo-1 .red-social a:hover{
+
+.pie-pagina .grupo-1 .red-social a:hover {
     color: aqua;
 }
-.pie-pagina .grupo-2{
+
+.pie-pagina .grupo-2 {
     background-color: #0a1a2a;
     padding: 15px 10px;
     text-align: center;
     color: #fff;
 }
-.pie-pagina .grupo-2 small{
+
+.pie-pagina .grupo-2 small {
     font-size: 15px;
 }
-@media screen and (max-width:800px){
-    .pie-pagina .grupo-1{
+
+@media screen and (max-width:800px) {
+    .pie-pagina .grupo-1 {
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
-        grid-gap:30px;
+        grid-gap: 30px;
         padding: 35px 0px;
     }
+}
+
+/* DanikingRD */
+
+div.search-box-container {
+    margin: 0% 10%;
+    padding-top: 5%;
+}
+
+img.logo {
+    width: 400px;
+    height: 400px;
 }
