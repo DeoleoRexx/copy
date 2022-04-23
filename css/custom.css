@@ -145,7 +145,7 @@ ul {
 .card {
     text-align: center;
     box-shadow: 0 25px 98px 0 rgb(0 0 0 / 3%);
-    background: rgba(95, 200, 226, 0.863);
+    background: rgba(19, 54, 150, 0.863);
 }
 
 @media (min-width: 550px) {
@@ -156,6 +156,10 @@ ul {
 
 .info-card {
     padding: 10px 20px;
+    color: whitesmoke;
+}
+
+p.precio {
     color: black;
 }
 
@@ -244,7 +248,7 @@ ul {
     background-color: #0a1a2a;
     padding: 15px 10px;
     text-align: center;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 .pie-pagina .grupo-2 small {
